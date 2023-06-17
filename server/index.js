@@ -13,7 +13,7 @@ const userRouter = require('./routes/user');
 // INIT
 const PORT = process.env.PORT || 3000 // specify port number
 const app = express(); // initialize express
-const DB = "mongodb+srv://<babatunde>:<babatunde>@ratokunbo-cluster-01.2lwarnb.mongodb.net/?retryWrites=true&w=majority"; // Please Enter your MongoDB URL
+const DB = "mongodb+srv://Cl3McWUgkjTxpwkt:Cl3McWUgkjTxpwkt@ratokunbo-cluster-01.2lwarnb.mongodb.net/?retryWrites=true&w=majority"; // Please Enter your MongoDB URL
 // Middleware
 app.use(express.json());
 app.use(authRouter);
